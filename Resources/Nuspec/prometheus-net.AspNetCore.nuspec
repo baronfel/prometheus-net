@@ -24,6 +24,10 @@
         <dependency id="prometheus-net" version="__NUGETPACKAGEVERSION__" />
       </group>
 
+      <group targetFramework="net5.0">
+        <dependency id="prometheus-net" version="__NUGETPACKAGEVERSION__" />
+      </group>
+
       <group>
         <dependency id="Microsoft.Extensions.Http" version="3.1.9" />
       </group>
@@ -33,6 +37,7 @@
     <!-- The input directory structure is as it exists on the release agent, not as in the solution. -->
     <file src="..\Prometheus.AspNetCore\netstandard2.0\**" target="lib\netstandard2.0" />
     <file src="..\Prometheus.AspNetCore\netcoreapp3.1\**" target="lib\netcoreapp3.1" />
+    <file src="..\Prometheus.AspNetCore\net5.0\**" target="lib\net5.0" />
 
     <file src="prometheus-net-logo.png" target="images\" />
   </files>

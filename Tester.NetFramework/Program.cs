@@ -93,7 +93,7 @@ namespace tester
             // With MetricPusherTester you might get a 1st push already before it fails but after that it should stop pushing.
             //Metrics.DefaultRegistry.AddBeforeCollectCallback(() => throw new ScrapeFailedException());
 
-#if NETCOREAPP
+#if NETCOREAPP || NET5_0
             var diagnosticSourceRegistration = DiagnosticSourceAdapter.StartListening();
 #endif
 
