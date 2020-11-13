@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
     <RootNamespace>tester</RootNamespace>
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>prometheus-net.snk</AssemblyOriginatorKeyFile>
